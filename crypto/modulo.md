@@ -11,7 +11,7 @@ Tìm UCLN của a và b: d = UCLN(a,b) = ?
 Gán r0 = a
     r1 = b
 ```
-Ta có phép chia: <b>$r_0$ = $r_1$*$q_1$ + $r_2$</b>
+Ta có phép chia: $r_0$ = $r_1$*$q_1$ + $r_2$
 
 $r_0$ = $r_1$ * $q_1$ + $r_2$<br>
 $r_1$ = $r_2$ * $q_2$ + $r_3$<br>
@@ -20,9 +20,9 @@ $r_2$ = $r_3$ * $q_3$ + $r_4$<br>
 $r_{m-1}$ = $r_m$ * $q_m$ + $r_{m+1}$<br>
 $r_m$ = $r_{m+1}$ * $q_{m+1}$ + $r_{m+2}$<br>
 
-Thuật toán dừng lại khi <b>$r_{m+2}$ = 0</b>
+Thuật toán dừng lại khi $r_{m+2}$ = 0
 
-Lúc này USCLN cần tìm là: <b>d = UCLN($r_0$, $r_1$) = $r_{m+1}$</b> 
+Lúc này USCLN cần tìm là: d = UCLN($r_0$, $r_1$) = $r_{m+1}$
 
 > Chính là số dư của phép chia được thực hiện ngay trước phép chia cuối cùng cho số dư = 0
 
