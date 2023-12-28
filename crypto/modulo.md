@@ -126,85 +126,89 @@ print(res)
 ```
 Với a = 29, b = 8
 <table border="1">
-<tbody>
-    <tr>
-        <td>Step</td>
-        <td>r_i</td>
-        <td>r_i+1</td>
-        <td>r_i+2</td>
-        <td>q_i+1</td>
-        <td>x_i</td>
-        <td>x_i+1</td>
-        <td>x_i+2</td>
-        <td>y_i</td>
-        <td>y_i+1</td>
-        <td>y_i+2</td>
-</tr>
-<tr>
-<td>0</td>
-<td>29</td>
-<td>8</td>
-<td>5</td>
-<td>3</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>-3
-</td></tr>
-<tr>
-<td>1</td>
-<td>8</td>
-<td>5</td>
-<td>3</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>-1</td>
-<td>1</td>
-<td>-3</td>
-<td>4
-</td></tr>
-<tr>
-<td>2</td>
-<td>5</td>
-<td>3</td>
-<td>2</td>
-<td>1</td>
-<td>1</td>
-<td>-1</td>
-<td>2</td>
-<td>-3</td>
-<td>4</td>
-<td>-7
-</td></tr>
-<tr>
-<td>3</td>
-<td>3</td>
-<td>2</td>
-<td>1</td>
-<td>1</td>
-<td>-1</td>
-<td>2</td>
-<td>-3</td>
-<td>4</td>
-<td>-7</td>
-<td>11
-</td></tr>
-<tr>
-<td>4</td>
-<td>2</td>
-<td>1</td>
-<td>0</td>
-<td>2</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>
-</td></tr></tbody></table>
+    <thead>
+        <tr>
+            <th>Step</th>
+            <th>r_i</th>
+            <th>r_i+1</th>
+            <th>r_i+2</th>
+            <th>q_i+1</th>
+            <th>x_i</th>
+            <th>x_i+1</th>
+            <th>x_i+2</th>
+            <th>y_i</th>
+            <th>y_i+1</th>
+            <th>y_i+2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>0</td>
+            <td>29</td>
+            <td>8</td>
+            <td>5</td>
+            <td>3</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>-3</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>8</td>
+            <td>5</td>
+            <td>3</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>-1</td>
+            <td>1</td>
+            <td>-3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>5</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>-1</td>
+            <td>2</td>
+            <td>-3</td>
+            <td>4</td>
+            <td>-7</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>-1</td>
+            <td>2</td>
+            <td>-3</td>
+            <td>4</td>
+            <td>-7</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>2</td>
+            <td>1</td>
+            <td>0</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 Kết quả:
 
