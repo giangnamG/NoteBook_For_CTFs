@@ -190,7 +190,7 @@ SELECT CONVERT("W3Schools.com" USING latin1); => string latin: "W3Schools.com"
         </tr>
         <tr>
             <td>DECIMAL</td>
-            <td>Chuyển đổi giá trị thành DECIMAL.<br>Sử dụng tham số M và D tùy chọn để chỉ định số chữ số tối đa (M) và số chữ số theo sau dấu thập phân (D).</td>
+            <td>- Chuyển đổi giá trị thành DECIMAL.<br>- Sử dụng tham số M và D tùy chọn để chỉ định số chữ số tối đa (M) và số chữ số theo sau dấu thập phân (D).</td>
         </tr>
     </tbody>
 </table>
@@ -299,7 +299,7 @@ USER();
             <td>6</td>
             <td><b>INSERT(string1, position, number, string2)</b></td>
             <td>Chèn chuỗi string2 vào chuỗi string1 tại vị trí đã chỉ định và cho một số ký tự nhất định.</td>
-            <td>Nếu vị trí nằm ngoài độ dài của chuỗi, hàm này trả về chuỗi<br>Nếu số lớn hơn độ dài của phần còn lại của chuỗi, hàm này sẽ thay thế chuỗi từ vị trí cho đến hết chuỗi</td>
+            <td>- Nếu vị trí nằm ngoài độ dài của chuỗi, hàm này trả về chuỗi<br>- Nếu số lớn hơn độ dài của phần còn lại của chuỗi, hàm này sẽ thay thế chuỗi từ vị trí cho đến hết chuỗi</td>
             <td>...</td>
         </tr>
         <tr>
@@ -354,9 +354,9 @@ USER();
             <td>13</td>
             <td><b>STRCMP(string1, string2)</b></td>
             <td>So sánh hai chuỗi.</td>
-            <td>If string1 = string2, this function returns 0<br>
-                If string1 < string2, this function returns -1<br>
-                If string1 > string2, this function returns 1</td>
+            <td>- If string1 = string2, this function returns 0<br>
+                - If string1 < string2, this function returns -1<br>
+                - If string1 > string2, this function returns 1</td>
             <td>SELECT STRCMP("SQL", "SQL");</td>
         </tr>
         <tr>
@@ -398,9 +398,9 @@ USER();
             <td>Chuyển đổi một giá trị thành chuỗi nhị phân.</td>
             <td>Hàm này tương đương với việc sử dụng CAST(giá trị NHƯ BINARY).</td>
             <td>
-                SELECT BINARY "W3Schools.com";<br>
-                Ở đây, MySQL thực hiện so sánh từng byte của "HELLO" và "hello" rồi trả về 0 (vì trên cơ sở từng byte, chúng KHÔNG tương đương):<br>
-                SELECT BINARY "HELLO" = "hello";
+                - SELECT BINARY "W3Schools.com";<br>
+                - Ở đây, MySQL thực hiện so sánh từng byte của "HELLO" và "hello" rồi trả về 0 (vì trên cơ sở từng byte, chúng KHÔNG tương đương):<br>
+                => SELECT BINARY "HELLO" = "hello";
             </td>
         </tr>
     </tbody>
