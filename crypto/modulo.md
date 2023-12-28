@@ -62,12 +62,8 @@ Với x1 = 0, y1 = 1
 Tổng quan:
 
 $$
-\[
-\begin{align*}
-& a \cdot x_i + b \cdot y_i = r_i \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad (1) \\
-& \Rightarrow a \cdot x_{i+1} + b \cdot y_{i+1} = r_{i+1} \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad (2)
-\end{align*}
-\](2)
+a * x_i + b * y_i = r_i\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad (1) \\
+=> a * x_{i+1} + b * y_{i+1} = r_{i+1} \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\quad \ \ (2)
 $$
 
 Lại có:<br>
