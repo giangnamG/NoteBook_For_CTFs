@@ -92,7 +92,7 @@ $$
 Lại có: 
 
 $$
-a \cdot x_{i+2} + b \cdot y_{i+2} = r_{i+2}\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad \ \ \ (5)
+a \cdot x_{i+2} + b \cdot y_{i+2} = r_{i+2}\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad \ \ (5)
 $$ 
 
 Từ (4), (5) ta được:
