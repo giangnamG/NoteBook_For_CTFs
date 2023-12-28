@@ -62,27 +62,27 @@ Với x1 = 0, y1 = 1
 Tổng quan:
 
 $$
-a * x_i + b * y_i = r_i\qquad\qquad\qquad\qquad\qquad\qquad\qquadqquad\qquad\qquad (1)
+a * x_i + b * y_i = r_i\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad (1)
 $$
 
 $$
-=> a * x_{i+1} + b * y_{i+1} = r_{i+1} \qquad\qquad\qquad\qquadqquad\qquad\qquad\quad \ \ (2)
+=> a * x_{i+1} + b * y_{i+1} = r_{i+1} \qquad\qquad\qquad\qquad\qquad\qquad\qquad\quad \ \ (2)
 $$
 
 Lại có:<br>
 
 $$
-r_i = r_{i+1} * q_{i+1} + r_{i+2} \qquad\qquad\qquad\qquad\qquad\qquad\qquadqquad\qquad\qquad
+r_i = r_{i+1} * q_{i+1} + r_{i+2} \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad
 $$
 
 $$
-=> r_i - r_{i+1} * q_{i+1} = r_{i+2} \qquad\qquad\qquad\qquad\qquadqquad\qquad\qquad\ \ \ \ \ (3)
+=> r_i - r_{i+1} * q_{i+1} = r_{i+2} \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\ \ \ \ \ (3)
 $$   
 
 Thay (1),(2) vào (3) ta được:
 
 $$ 
-(a \cdot x_i + b \cdot y_i) - (a  \cdot  x_{i+1} + b  \cdot  y_{i+1})  \cdot  q_{i+1} = r_{i+2} \qquadqquad\qquad\qquad \
+(a \cdot x_i + b \cdot y_i) - (a  \cdot  x_{i+1} + b  \cdot  y_{i+1})  \cdot  q_{i+1} = r_{i+2} \qquad\qquad\qquad\qquad \
 $$
 
 $$
