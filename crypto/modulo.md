@@ -210,7 +210,7 @@ Kết quả:
 
 $$
 \begin{cases}
-d = UCLN(29,8) = r_1 = 1 \qquad\qquad\qquad\qquad\qquad\qquad\\
+d = UCLN(29,8) = r_1 = 1 \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\\
 x = x_1 = -3 \\
 y = y_1 = 11 \\
 29 * -3 + 8 * 11 = 1
