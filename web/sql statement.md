@@ -34,7 +34,7 @@ Mệnh đề JOIN được sử dụng để kết hợp các hàng từ 2 hay n
 
 > <b>FULL JOIN</b>: Trả về tất cả các bản ghi khi có kết quả khớp ở bảng bên trái hoặc bên phải.
 
-![img](./images/1.png)
+![img](../images/web/sql/1.png)
 
 ### JOIN Syntax
 ```sql
