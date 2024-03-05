@@ -16,7 +16,7 @@
         </tr>
         <tr>
             <td>1</td>
-            <td><a href="./web/sqli cheatsheet.md">SQL Statement</a></td>
+            <td><a href="./web/sqli cheatsheet.md">SQL CheatSheet</a></td>
             <td>WEB</td>
         </tr>
         <tr>
@@ -26,7 +26,7 @@
         </tr>
         <tr>
             <td>2</td>
-            <td><a href="./web/xss cheatsheet.md">XSS Attack</a></td>
+            <td><a href="./web/xss cheatsheet.md">XSS CheatSheet</a></td>
             <td>WEB</td>
         </tr>
         <tr>
